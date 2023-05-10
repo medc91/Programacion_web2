@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    border-left: 1px solid black;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.carrito {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    column-gap: 20px;
+
+}
